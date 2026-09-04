@@ -63,8 +63,9 @@ result = qkdpp.run_raw(raw, keep_basis=0)
 ```
 
 See `examples/` for more (simulated data, external key-length policy, CSV
-from a real experiment) and `notebooks/postprocessing_pipeline.ipynb` for a
-full worked pipeline, including a side-by-side comparison against
+from a real experiment), `notebooks/qkdpp_pipeline.ipynb` for a full worked
+example on an experimental dataset, and `notebooks/qkdpp_vs_aitqkd.ipynb` for
+a side-by-side comparison against
 [AIT-QKD](https://github.com/axdhill/ait-qkd).
 
 ## Pipeline stages
